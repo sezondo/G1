@@ -1,0 +1,24 @@
+# Ignore build results
+Binaries/
+Build/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln
+*.VC.db
+.vscode/
+
+# macOS / Windows junk
+.DS_Store
+Thumbs.db
+
+# Ignore anything that's not necessary
+*.log
+*.obj
+*.pdb
+*.opensdf

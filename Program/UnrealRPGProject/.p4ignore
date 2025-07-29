@@ -1,0 +1,11 @@
+.vscode/
+.vs/
+Saved/
+Intermediate/
+DerivedDataCache/
+*.sln
+*.vcxproj
+*.csproj
+*.db
+*.log
+*.DS_Store

@@ -1,0 +1,61 @@
+##############################################
+# Unreal Engine - 소스코드만 Git에 올릴 때 #
+##############################################
+
+# 빌드 산출물 / 바이너리
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# 플러그인 내부 빌드 결과도 제외
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# 에셋 파일 (대용량 리소스)
+*.uasset
+*.umap
+*.fbx
+*.png
+*.jpg
+*.tga
+*.wav
+*.mp3
+*.mp4
+*.mov
+*.exr
+
+# Visual Studio 파일
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+.vscode/
+.vsconfig
+*.user
+*.log
+
+# 기타 실행 파일 및 바이너리
+*.exe
+*.dll
+*.app
+*.lib
+*.obj
+*.o
+*.so
+*.a
+*.out
+
+# 자동 생성된 에디터 관련
+*_BuiltData.uasset
+
+# 원본 소스아트 제외 (선택사항)
+SourceArt/
+
+# OS/에디터 임시파일
+.DS_Store
+Thumbs.db
